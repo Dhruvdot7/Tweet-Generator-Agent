@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import ipywidgets as widgets
 from IPython.display import display, Markdown
-API_KEY = "AIzaSyBhX6YBDGq4juMaCKNBEYvNXxZvPM-ADz8"
+API_KEY = "Enter your API Key here."
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 topic_input = widgets.Text(
