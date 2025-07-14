@@ -10,7 +10,7 @@ topic_input = widgets.Text(
 )
 tone_input = widgets.Dropdown(
     description="Tone",
-    options=['Professional','Casual','Motivational','Informative'],
+    options=['Professional','Casual','Motivational','Informative',"Humor"],
     layout=widgets.Layout(width="400px")
 )
 audience_input = widgets.Text(
